@@ -50,8 +50,9 @@ while True:
             goTo = cnt[0][0]
             x_val = goTo.item(0)
             y_val = goTo.item(1)
-            ptg.moveTo(x_val, y_val)
-            ptg.click()
+            """Line to uncomment"""
+            # ptg.moveTo(x_val, y_val)  """Moves mouse to a position"""
+            # ptg.click() """Clicks the mouse"""
 
 
 
